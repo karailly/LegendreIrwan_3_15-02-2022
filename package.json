@@ -1,11 +1,19 @@
 {
   "name": "ohmyfood",
   "version": "1.0.0",
-  "description": "",
+  "description": "\"# LegendreIrwan_3_15-02-2022\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass --watch ./sass/main.scss:.public/style/style.css"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karailly/LegendreIrwan_3_15-02-2022.git"
+  },
+  "bugs": {
+    "url": "https://github.com/karailly/LegendreIrwan_3_15-02-2022/issues"
+  },
+  "homepage": "https://github.com/karailly/LegendreIrwan_3_15-02-2022#readme"
 }
