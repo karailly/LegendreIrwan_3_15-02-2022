@@ -1,3 +1,9 @@
-body {
-    display: none;
-} 
+@import "./utils/variables";
+
+@import "./base/bases";
+
+@import "./layouts/header";
+
+@import "./components/loader";
+
+@import "./pages/pages";

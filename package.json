@@ -4,7 +4,7 @@
   "description": "\"# LegendreIrwan_3_15-02-2022\"",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./style/style.css",
+    "sass": "sass --watch ./sass/main.scss:./style/style-test.css",
     "prefix": "postcss ./style/style.css --use autoprefixer -d ./style/style-test-prefixed/"
   },
   "author": "",
