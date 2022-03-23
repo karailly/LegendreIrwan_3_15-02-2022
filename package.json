@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:./style/style-test.css",
-    "prefix": "postcss ./style/style.css --use autoprefixer -d ./style/style-test-prefixed/"
+    "prefix": "postcss ./style/style-test.css --use autoprefixer -d ./style/"
   },
   "author": "",
   "license": "ISC",

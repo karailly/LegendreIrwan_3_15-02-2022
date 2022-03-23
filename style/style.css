@@ -392,6 +392,45 @@ body {
     font-weight: 700;
   }
 
+  .restaurant__block-hearth {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 20px;
+    width: 350%;
+    color: aliceblue;
+    
+}
+.restaurant__block-hearth:hover {
+  cursor: pointer;
+  color: #FF79DA;
+}
+
+.restaurant__block-hearth3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 20px;
+  width: 450%;
+  color: aliceblue;
+}
+.restaurant__block-hearth3:hover {
+  cursor: pointer;
+  color: #FF79DA;
+}
+
   .footer {
     width: 100%;
     background-color: #353535;
