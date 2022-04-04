@@ -403,9 +403,9 @@ body {
     -ms-flex-align: center;
     align-items: center;
     margin-right: 20px;
-    color: aliceblue;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 
-    
+
 }
 .restaurant__block-hearth:hover {
   cursor: pointer;
@@ -415,8 +415,17 @@ body {
   background: linear-gradient(47deg, #ff79da 0%, #9356dc 100%);  
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
 }
+
+.fa-border {
+  stroke: white;
+  stroke-width: 30px;
+}
+.color {
+  background-color: #f2f2f2;
+  color: #f2f2f2;
+}
+
 
 .restaurant__block-hearth3 {
   display: -webkit-box;
