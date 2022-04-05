@@ -291,19 +291,30 @@ header .header__logo a {
   -ms-flex-align: center;
   align-items: center;
   margin-right: 20px;
-  color: aliceblue;
+  text-shadow: -1px 0 #353535, 0 1px #353535, 1px 0 #353535, 0 -1px #353535;
+ 
 
-  
 }
 .restaurant__block-hearth:hover {
 cursor: pointer;
-opacity: 1;
-background: pink;
 background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
 background: linear-gradient(47deg, #ff79da 0%, #9356dc 100%);  
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-
+text-shadow: none;
+font-weight: bold;
+transition: color 2s ease-in-out;
+}
+.fa-heart {
+  color: white;
+}
+.fa-heart::before {
+  font-weight: bold;
+  transition: color 2s ease-in-out;
+}
+.fa-heart:hover::before {
+  color: #9356dc;
+  cursor: pointer;
 }
 
 .menu__button {
