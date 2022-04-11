@@ -25,8 +25,9 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+            margin-top: 10px;
   }
-  
+ 
   .spinner {
     height: 100%;
     background: white;
@@ -113,6 +114,8 @@ body {
             align-items: center;
     background: #f3f3f3;
     color: #7a7a7a;
+    padding-bottom: 10px;
+    padding-left: 80px;
   }
   
   .location__city {
@@ -173,6 +176,14 @@ body {
     -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
             box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
   }
+  :-moz-placeholder { 
+    color:    black;
+    opacity:  1;
+ }
+ ::-moz-placeholder {
+    color:    black;
+    opacity:  1;
+ }
   
   .fonctionnement__contain {
     padding: 25px 0;
@@ -322,6 +333,28 @@ body {
     -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
             box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
   }
+    .restaurant__card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    width: 100%;
+    border-radius: 20px;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  }
   
   .restaurant__card-new {
     display: -webkit-box;
@@ -404,6 +437,7 @@ body {
     align-items: center;
     margin-right: 20px;
     text-shadow: -1px 0 #353535, 0 1px #353535, 1px 0 #353535, 0 -1px #353535;
+    transition: color 2s ease-in-out;
    
 
 }
@@ -418,7 +452,7 @@ body {
   transition: color 2s ease-in-out;
 }
 .fa-heart {
-  color: white;
+  color: #f2f2f2;
 }
 .fa-heart::before {
   font-weight: bold;
@@ -432,6 +466,10 @@ body {
 .color {
   background-color: #f2f2f2;
   color: #f2f2f2;
+  height: 35px;
+  border-style: none;
+  border-color: #f2f2f2;
+
 }
 
 
@@ -583,7 +621,7 @@ body {
   }
 }
 
-@media screen and (min-widht: 800px) {
+@media screen and (min-width: 768px) {
   .restaurant__card {
     display: -ms-grid;
     display: grid;
@@ -593,6 +631,32 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
   }
+  .restaurant__card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: inherit;
+            flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    width: 100%;
+    border-radius: 20px;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  }
+
+
+
   .process__step {
     width: 100%;
   }

@@ -240,13 +240,13 @@ header .header__logo a {
 
 .menu__case__dish {
   margin-left: 20px;
-  white-space: nowrap;
+  white-space: normal;
   overflow: hidden;
 }
 
-.menu__case__dish:hover {
+.menu__grid__case:hover .menu__case__dish {
   margin-left: 20px;
-  white-space: normal;
+  white-space: nowrap;
   overflow: hidden;
 }
 
@@ -292,6 +292,7 @@ header .header__logo a {
   align-items: center;
   margin-right: 20px;
   text-shadow: -1px 0 #353535, 0 1px #353535, 1px 0 #353535, 0 -1px #353535;
+  transition: color 2s ease-in-out;
  
 
 }
@@ -306,7 +307,7 @@ font-weight: bold;
 transition: color 2s ease-in-out;
 }
 .fa-heart {
-  color: white;
+  color: #f6f6f6;
 }
 .fa-heart::before {
   font-weight: bold;
