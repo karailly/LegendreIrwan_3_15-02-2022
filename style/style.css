@@ -323,7 +323,7 @@ h1 {
 @media screen and (min-width: 540px) {
   .card__global {
     display: flex;
-    flex-wrap:inherit;
+    flex-wrap: wrap;
     justify-content: space-between;
     /*flex-wrap: wrap
     opacity: 0;*/
