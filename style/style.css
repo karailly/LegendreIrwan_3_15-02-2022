@@ -136,7 +136,6 @@ h1 {
 
 
 
-/*Fonctionnement*/
 .function__title {
   margin: 0 0 20px 22px;
 }
@@ -293,19 +292,7 @@ h1 {
   top: 1rem;
   right: 0.75rem;
 }
-/*responsive mobile*/
-/*.restaurants__card .restaurants__card__content .heart__2:hover {
-  animation: heart__full__opacity 1s forwards;
-}
-.restaurants .btn-new {
-  background-color: #99E2D0;
-  color: #1b6150;
-  padding: 0.5rem;
-  border-radius: 0.125rem;
-  position: absolute;
-  top: 1rem;
-  right: 0.75rem;
-}*/
+
 
 .photo__restaurant img {
   width: 100%;
@@ -313,7 +300,7 @@ h1 {
   object-fit: cover;
 }
 
-/*Carte restaurant*/
+
 .card__title {
   font-family: "Shrikhand", cursive;
   max-width: 322px;
@@ -328,8 +315,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /*flex-wrap: wrap
-    opacity: 0;*/
+
   }
 }
 
@@ -376,22 +362,6 @@ h1 {
     margin-right: 10px;
   }
 }
-/*@keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-.card__global__entrees {
-  animation: fadein 2s;
-}
-@media screen and (min-width: 1140px) {
-  .card__global__entrees {
-    margin-right: 10px;
-  }
-}*/
 
 .card__global__plats {
   animation: fadein 4s;
@@ -429,10 +399,7 @@ h1 {
   .card__global__contenu {
     max-width: none;
   }
-  /*@media screen and (min-width: 400px) and (max-width: 1024px) {
-  .card__global__contenu {
-    max-width: none;
-  }*/
+
 }
 .card__global__contenu__dish {
   width: 350px;
