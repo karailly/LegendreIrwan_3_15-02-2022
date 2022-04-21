@@ -165,9 +165,17 @@ h1 {
   font-family: "Roboto", sans-serif;
   width: 300px;
   max-height: 78px;
+  (
+    height: 50%;
+  border-radius: 35px;
+  )
 }
 .function__choice:hover {
   background-color: #f5edff;
+  (
+    color: purple;
+    background-color: purple;
+    opacity: 0;
 }
 .function__choice:hover .fas {
   color: #9356DC;
