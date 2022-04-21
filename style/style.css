@@ -153,7 +153,7 @@ h1 {
 .function h2 {
   margin: 0 0 30px 0;
 }
-/*.function__choice {
+.function__choice {
   margin: 0 20px 20px 40px;
   font-weight: bold;
   background-color: #F6F6F6;
@@ -165,21 +165,15 @@ h1 {
   font-family: "Roboto", sans-serif;
   width: 300px;
   max-height: 78px;
-  (
-    height: 50%;
-  border-radius: 35px;
-  )
+
 }
 .function__choice:hover {
   background-color: #f5edff;
-  (
-    color: purple;
-    background-color: purple;
-    opacity: 0;
+  
 }
 .function__choice:hover .fas {
   color: #9356DC;
-}*/
+}
 .function__choice__number {
   width: 18px;
   height: 18px;
@@ -382,6 +376,22 @@ h1 {
     margin-right: 10px;
   }
 }
+/*@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.card__global__entrees {
+  animation: fadein 2s;
+}
+@media screen and (min-width: 1140px) {
+  .card__global__entrees {
+    margin-right: 10px;
+  }
+}*/
 
 .card__global__plats {
   animation: fadein 4s;
@@ -419,6 +429,10 @@ h1 {
   .card__global__contenu {
     max-width: none;
   }
+  /*@media screen and (min-width: 400px) and (max-width: 1024px) {
+  .card__global__contenu {
+    max-width: none;
+  }*/
 }
 .card__global__contenu__dish {
   width: 350px;
