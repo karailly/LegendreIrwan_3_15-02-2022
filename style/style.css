@@ -320,11 +320,13 @@ h1 {
   margin-left: 20px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 540px) {
   .card__global {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:inherit;
     justify-content: space-between;
+    /*flex-wrap: wrap
+    opacity: 0;*/
   }
 }
 
