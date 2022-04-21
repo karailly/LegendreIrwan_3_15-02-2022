@@ -95,7 +95,6 @@ h1 {
     opacity: 0;
   }
 }
-/*Onglet recherche de la ville*/
 .proj-search {
   display: flex;
   justify-content: center;
@@ -135,6 +134,8 @@ h1 {
   box-shadow: 1rem 1rem 20px rgba(0, 0, 0, 0.25);
 }
 
+
+
 /*Fonctionnement*/
 .function__title {
   margin: 0 0 20px 22px;
@@ -152,7 +153,7 @@ h1 {
 .function h2 {
   margin: 0 0 30px 0;
 }
-.function__choice {
+/*.function__choice {
   margin: 0 20px 20px 40px;
   font-weight: bold;
   background-color: #F6F6F6;
@@ -170,7 +171,7 @@ h1 {
 }
 .function__choice:hover .fas {
   color: #9356DC;
-}
+}*/
 .function__choice__number {
   width: 18px;
   height: 18px;
